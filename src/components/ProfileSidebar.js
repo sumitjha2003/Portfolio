@@ -5,7 +5,6 @@ import profileImage from '../assets/profile.jpeg'; // Adjust path as needed
 import { name, skills, title } from '../profileconfig.js';
 
 const ProfileSidebar = (props) => {
-  const isDarkMode = props.isDarkMode;
 
   return (
     <div className="flex flex-col h-full max-h-80 overflow-hidden p-4"

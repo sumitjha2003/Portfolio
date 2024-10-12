@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { project } from "../constants/project";
+import React from "react";
 import { skills } from "../constants/skills"
 import cross from "../../assets/cross.svg";
 import Skills from "./Skills";

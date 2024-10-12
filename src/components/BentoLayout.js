@@ -9,7 +9,7 @@ import backgroundImage from "../assets/profile.jpg";
 import setupImage from "../assets/setup.jpg";
 import fresherLogo from "../assets/experience/Fresher.png";
 
-import { email, github, linkedin, twitter, resume } from "../profileconfig";
+import { email, github, linkedin, twitter } from "../profileconfig";
 import ProjectModal from "./modals/ProjectModal";
 import SkillModal from "./modals/SkillModal";
 
@@ -142,7 +142,7 @@ const BentoLayout = ({ isDarkMode, toggleDarkMode }) => {
 
           {/* Resume */}
           <div className="aspect-square rounded-xl border-transparent shadow-md overflow-hidden">
-            <a href={resume} target="_blank" rel="noopener noreferrer">
+            <a href={process.env.PUBLIC_URL + '/Resume.pdf'} target="_blank" rel="noopener noreferrer">
               <img src={resumeImage} alt="Resume" className="w-full h-full object-cover" />
             </a>
           </div>

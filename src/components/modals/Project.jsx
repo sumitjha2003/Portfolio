@@ -3,7 +3,7 @@ import githubLogo from "../../assets/github.svg";
 import siteLogo from "../../assets/internet.png";
 import cross from "../../assets/cross.svg";
 import {Swiper, SwiperSlide} from 'swiper/react';
-import { Autoplay, Pagination, FreeMode ,Navigation} from 'swiper/modules';
+import { Autoplay, FreeMode} from 'swiper/modules';
 import "swiper/css"
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
